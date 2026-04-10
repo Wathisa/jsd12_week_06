@@ -21,3 +21,11 @@ function getAllAnimalsByLetter(letter) {
 }
 
 getAllAnimalsByLetter("a");
+
+// นี่ค้าบถ้าอยากดึงข้อมูล ตำแหน่ง 0 ถึง 20 ครับ ดึงมาแค่ 20 obj ครับ
+// .then((data) => {
+//       if (data.length > 0) {
+//          const limitedData = data.slice(0, 20);
+//          allResults.push(...limitedData);
+
+//       }
